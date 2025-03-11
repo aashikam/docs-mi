@@ -5,21 +5,21 @@ This guide explains how to generate an access token in Salesforce Marketing Clou
 **Step 1: Log in to Marketing Cloud**
 
 1. Navigate to your [Salesforce Marketing Cloud login page](https://mc.exacttarget.com/cloud/login.html) and log in with your credentials.
-   <img src="https://github.com/aashikam/docs-mi/blob/sfmc-check/en/docs/assets/img/integrate/connectors/sfmc/sfmc-login.png" title="SFMC login" width="95%" alt="SFMC login"/>
+   <img src="https://github.com/aashikam/docs-mi/blob/sfmc-check/en/docs/assets/img/integrate/connectors/sfmc/sfmc-login.png" title="SFMC login" width="50%" alt="SFMC login"/>
 
 2. Once logged in, click on your username in the top right corner and select Setup from the dropdown menu.
-   <img src="https://github.com/aashikam/docs-mi/blob/sfmc-check/en/docs/assets/img/integrate/connectors/sfmc/sfmc-setup.png" title="SFMC setup" width="95%" alt="SFMC setup"/>
+   <img src="https://github.com/aashikam/docs-mi/blob/sfmc-check/en/docs/assets/img/integrate/connectors/sfmc/sfmc-setup.png" title="SFMC setup" width="50%" alt="SFMC setup"/>
 
 **Step 2: Create an Installed Package**
 
 1. In the Setup menu, scroll down to the Platform Tools section.
 2. Click on Apps and then select Installed Packages.
-   <img src="https://github.com/aashikam/docs-mi/blob/sfmc-check/en/docs/assets/img/integrate/connectors/sfmc/sfmc-packages.png" title="SFMC packages" width="95%" alt="SFMC installed packages"/>
+   <img src="https://github.com/aashikam/docs-mi/blob/sfmc-check/en/docs/assets/img/integrate/connectors/sfmc/sfmc-packages.png" title="SFMC packages" width="50%" alt="SFMC installed packages"/>
 
 3. Click the New button.
 4. Enter a Name and Description for your package (for example, “API Integration Package”).
 5. Click Save.
-   <img src="https://github.com/aashikam/docs-mi/blob/sfmc-check/en/docs/assets/img/integrate/connectors/sfmc/sfmc-new-component.png" title="SFMC new component" width="95%" alt="SFMC installed package component"/>
+   <img src="https://github.com/aashikam/docs-mi/blob/sfmc-check/en/docs/assets/img/integrate/connectors/sfmc/sfmc-new-component.png" title="SFMC new component" width="75%" alt="SFMC installed package component"/>
 
 **Step 3: Add an API Integration Component**
 
@@ -28,16 +28,16 @@ This guide explains how to generate an access token in Salesforce Marketing Clou
 
 2. Click on Add Component.
 3. Choose **API Integration** as the component type.
-   <img src="https://github.com/aashikam/docs-mi/blob/sfmc-check/en/docs/assets/img/integrate/connectors/sfmc/sfmc-component-type.png" title="SFMC new component type" width="95%" alt="SFMC installed package component type"/>
+   <img src="https://github.com/aashikam/docs-mi/blob/sfmc-check/en/docs/assets/img/integrate/connectors/sfmc/sfmc-component-type.png" title="SFMC new component type" width="50%" alt="SFMC installed package component type"/>
 
 4. Select Server-to-Server as the integration type.
-   <img src="https://github.com/aashikam/docs-mi/blob/sfmc-check/en/docs/assets/img/integrate/connectors/sfmc/sfmc-integration-type.png" title="SFMC new integration type" width="95%" alt="SFMC installed package integration type"/>
+   <img src="https://github.com/aashikam/docs-mi/blob/sfmc-check/en/docs/assets/img/integrate/connectors/sfmc/sfmc-integration-type.png" title="SFMC new integration type" width="50%" alt="SFMC installed package integration type"/>
 
 5. In the list of available scopes, check the required permissions for your integration. For most token generation and API calls, you might need:
    * Read and Write access to Email Studio
    * Access to the REST API
    * Any additional scopes based on your specific use case
-     <img src="https://github.com/aashikam/docs-mi/blob/sfmc-check/en/docs/assets/img/integrate/connectors/sfmc/sfmc-scope.png" title="SFMC component scope" width="95%" alt="SFMC component scopes"/>
+     <img src="https://github.com/aashikam/docs-mi/blob/sfmc-check/en/docs/assets/img/integrate/connectors/sfmc/sfmc-scope.png" title="SFMC component scope" width="75%" alt="SFMC component scopes"/>
 
 6. Click Save to add the component.
 
@@ -45,7 +45,7 @@ This guide explains how to generate an access token in Salesforce Marketing Clou
 
 On the package detail page, note down the Base URIs, Client ID and Client Secret generated for your integration. These credentials are required to authenticate API calls.
 If necessary, click on Edit to update any integration details or to add further scopes.
-<img src="https://github.com/aashikam/docs-mi/blob/sfmc-check/en/docs/assets/img/integrate/connectors/sfmc/sfmc-secret.png" title="SFMC secret" width="95%" alt="SFMC client secret"/>
+<img src="https://github.com/aashikam/docs-mi/blob/sfmc-check/en/docs/assets/img/integrate/connectors/sfmc/sfmc-secret.png" title="SFMC secret" width="65%" alt="SFMC client secret"/>
 
 <img src="https://github.com/aashikam/docs-mi/blob/sfmc-check/en/docs/assets/img/integrate/connectors/sfmc/sfmc-client.png" title="SFMC client id" width="95%" alt="SFMC client id"/>
 
